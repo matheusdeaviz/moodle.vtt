@@ -1,0 +1,81 @@
+WEBVTT
+
+1
+0:00:04,000 --> 0:00:11,619
+Olá! No QGIS, carregue a sua camada local, a que está armazenada no seu computador.
+
+2
+0:00:11,619 --> 0:00:15,109
+Prefira ter ela no formato GeoPackage.
+
+3
+0:00:15,109 --> 0:00:21,440
+Atenção! Esse procedimento também serve para conexões com PostgreSQL.
+
+4
+0:00:21,440 --> 0:00:29,789
+Procure sua conexão com o banco de dados. No meu caso, é a conexão Geuabi, pasta de Terras.
+
+5
+0:00:29,789 --> 0:00:35,850
+Clique com o botão direito e adicione a camada ao projeto do QGIS.
+
+6
+0:00:35,850 --> 0:00:41,359
+Todas as edições feitas nela serão salvas no banco de dados.
+
+7
+0:00:41,359 --> 0:00:47,780
+Selecione a camada e ative o modo de edição clicando no lápis amarelo.
+
+8
+0:00:47,780 --> 0:00:54,020
+Faça isso tanto para a camada local quanto para a do banco de dados.
+
+9
+0:00:54,020 --> 0:01:00,719
+Agora selecione a camada local e ative a ferramenta "Selecionar feições".
+
+10
+0:01:00,719 --> 0:01:06,319
+Clique no polígono que deseja importar para o banco de dados.
+
+11
+0:01:06,319 --> 0:01:11,920
+Você também pode fazer essa seleção pela tabela de atributos.
+
+12
+0:01:11,920 --> 0:01:17,890
+Vá no menu Editar e clique em "Copiar feições" (atalho Ctrl + C).
+
+13
+0:01:17,890 --> 0:01:25,319
+Atenção! Os campos das duas camadas devem ser iguais: mesmos nomes e quantidades.
+
+14
+0:01:25,319 --> 0:01:32,200
+Agora selecione a camada de destino e clique em "Colar feições" (Ctrl + V).
+
+15
+0:01:32,200 --> 0:01:38,439
+Uma mensagem irá confirmar que as feições foram coladas com sucesso.
+
+16
+0:01:38,439 --> 0:01:44,590
+Clique em "Desfazer seleções" para visualizar o polígono importado.
+
+17
+0:01:44,590 --> 0:01:50,189
+Nesse exemplo, colamos da camada rosa para a camada vermelha.
+
+18
+0:01:50,189 --> 0:01:54,409
+Por fim, clique em "Salvar edições" na camada.
+
+19
+0:01:54,409 --> 0:01:59,090
+Pronto! Feito isso, sua edição está salva no banco.
+
+20
+0:01:59,090 --> 0:02:00,010
+Até mais!!
